@@ -6,8 +6,6 @@ The overhead of the container might be too much for the little Pi.
 
 The base of the instructions came from here; <https://forums.plex.tv/t/suggestions-for-the-future-headless-rpi-support/218187/56>
 
-TODO: I also use a HifiBerry DAC Zero, so I've included the setup for this in a separate script.
-
 ## IMPORTANT
 
 You must get a server.json file from existing Plexamp install and put it in the same fodler as this script before running.
