@@ -1,4 +1,4 @@
-# Plex Amp on Raspberry Pi Zero
+# Plexamp on Raspberry Pi Zero
 
 The docker image I use on the Pi4 didn't build on the Zero, so I had to instead do a scripted install.
 
