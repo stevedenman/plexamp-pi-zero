@@ -6,6 +6,7 @@ cd node-v9.11.2-linux-armv6l/
 sudo cp -R * /usr/local/
 node -v
 npm -v
+cd ..
 
 # Extract Plexamp
 tar xjf Plexamp-v2.0.0-rPi-beta.2.tar.bz2 -C /home/pi
@@ -15,7 +16,7 @@ mkdir -p /home/pi/.config/Plexamp/
 cp server.json /home/pi/.config/Plexamp/
 
 # Service
-sudo cp /home/pi/Plexamp/plexamp.service /lib/systemd/system/
+sudo cp /home/pi/plexamp/plexamp.service /lib/systemd/system/
 sudo systemctl daemon-reload
 sudo systemctl enable plexamp
 sudo systemctl start plexamp
