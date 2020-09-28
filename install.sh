@@ -16,7 +16,7 @@ mkdir -p /home/pi/.config/Plexamp/
 cp server.json /home/pi/.config/Plexamp/
 
 # Service
-sudo cp /home/pi/plexamp/plexamp.service /lib/systemd/system/
+sudo cp plexamp.service /lib/systemd/system/
 sudo systemctl daemon-reload
 sudo systemctl enable plexamp
 sudo systemctl start plexamp
