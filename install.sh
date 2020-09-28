@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Install Node 9
-tar -xzf node-v9.11.2-linux-armv6l.tar
+tar -xzf node-v9.11.2-linux-armv6l.tar.gz
 cd node-v9.11.2-linux-armv6l/
 sudo cp -R * /usr/local/
 node -v
